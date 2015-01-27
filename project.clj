@@ -175,6 +175,13 @@
                 :output-dir "examples/refs/out"
                 :source-map true
                 :optimizations :none}}
+             {:id "test-refs"
+              :source-paths ["src" "examples/test_refs/src"]
+              :compiler {
+                :output-to "examples/test_refs/main.js"
+                :output-dir "examples/test_refs/out"
+                :source-map true
+                :optimizations :none}}
              {:id "tests"
               :source-paths ["src" "examples/tests/src"]
               :compiler {
